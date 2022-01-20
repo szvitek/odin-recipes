@@ -1,0 +1,50 @@
+body {
+  font-family: 'Lucida Console', 'Courier New', monospace;
+  margin: 0;
+  padding: 1.5em;
+  background-color: burlywood;
+}
+
+/* index */
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.recipes li {
+  list-style: none;
+}
+
+.recipes a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.recipes a:hover {
+  text-decoration: underline;
+  background-color: aquamarine;
+  color: darkorange;
+}
+
+/* recipes */
+.image-container {
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+hr {
+  border-top: 1px dotted red;
+}
+
+.description {
+  font-style: italic;
+}
+
+.ingredients {
+  list-style: disclosure-closed;
+}
