@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 1.5em;
   background-color: burlywood;
+  color: midnightblue;
 }
 
 /* index */
@@ -10,6 +11,11 @@ body {
 h1 {
   text-align: center;
   text-decoration: underline;
+  color: springgreen;
+}
+
+h2 {
+  color: tomato;
 }
 
 .recipes li {
@@ -22,7 +28,6 @@ h1 {
 }
 
 .recipes a:hover {
-  text-decoration: underline;
   background-color: aquamarine;
   color: darkorange;
 }
